@@ -25,7 +25,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:textSize="16sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/in_or_out"
         app:layout_constraintStart_toEndOf="@id/img"
         app:layout_constraintTop_toTopOf="parent"

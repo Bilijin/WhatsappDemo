@@ -22,6 +22,13 @@ class ChatAdapter(private val chats : ArrayList<Chat>) : RecyclerView.Adapter<Ch
         holder.message.text = chat.message
         holder.user.text = chat.user
         holder.time.text = chat.time
+
+        when(chat.value) {
+            1 -> holder.message.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_sent_24, 0, 0, 0)
+            2 -> holder.message.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_delivered_24, 0, 0, 0)
+            3 -> holder.message.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_read_24, 0, 0, 0)
+            else -> holder.message.compoundDrawablePadding = 0
+        }
     }
 
     override fun getItemCount(): Int {

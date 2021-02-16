@@ -30,13 +30,13 @@ class StatusFragment : Fragment() {
 
     private fun loadStatus() : ArrayList<Status> {
         val statuses = ArrayList<Status>()
-        statuses.add(Status(R.drawable.book, "Bisola", "9:20pm"))
-        statuses.add(Status(R.drawable.fem, "Cynthia", "9:20pm"))
-        statuses.add(Status(R.drawable.yellow, "Big Head", "9:20pm"))
-        statuses.add(Status(R.drawable.wiki, "Hussein", "9:20pm"))
-        statuses.add(Status(R.drawable.avatar, "Kelechi", "9:20pm"))
-        statuses.add(Status(R.drawable.brooch, "A", "9:20pm"))
-        statuses.add(Status(R.drawable.cookie, "Chuks", "9:20pm"))
+        statuses.add(Status(R.drawable.book, "Bisola", "Just now"))
+        statuses.add(Status(R.drawable.fem, "Cynthia", "3 minutes ago"))
+        statuses.add(Status(R.drawable.yellow, "Big Head", "10 minutes ago"))
+        statuses.add(Status(R.drawable.wiki, "Hussein", "36 minutes ago"))
+        statuses.add(Status(R.drawable.avatar, "Kelechi", "Today, 7:21pm"))
+        statuses.add(Status(R.drawable.brooch, "A", "Today, 7:00pm"))
+        statuses.add(Status(R.drawable.cookie, "Chuks", "Today, 6:56pm"))
 
         return statuses
     }
