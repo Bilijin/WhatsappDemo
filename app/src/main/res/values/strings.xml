@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Whatsapp Demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="incoming">Incoming or Outgoing call</string>
+    <string name="recent">Recent updates</string>
+    <string name="my_status">My status</string>
+    <string name="yesterday">Today, 9:03 am</string>
+    <string name="msg1">Can we talk tomorrow? I have questions</string>
+    <string name="msg2">Lol. I think he was drunk. Don\'t think he knew what he was doing.</string>
+    <string name="msg3">Keep me updated!! </string>
+    <string name="msg4">Heyyyy</string>
+    <string name="msg5">I watched the entire season of Bridgerton in on day</string>
+    <string name="msg6">Okay</string>
+    <string name="msg7">yh</string>
+    <string name="msg8">Have you eaten yet?</string>
+    <string name="msg9">Are you watching the match?</string>
+    <string name="msg10">Pretty sure I won</string>
+    <string name="msg11">Hello. I\'ve been trying to reach you. I need your help, please text back</string>
+    <string name="msg12">She\'s not serious. Can you imagine she sent me a text after you left. Acting like nothing happened</string>
+    <string name="msg13">Good evening sir. How\'re you doing? My pocket money has finished</string>
+    <string name="search">Search</string>
+    <string name="new_group">New Group</string>
+    <string name="new_broadcast">New Broadcast</string>
+    <string name="whatsapp_web">WhatsApp Web</string>
+    <string name="starred_messages">Starred Messages</string>
+    <string name="settings">Settings</string>
+    <string name="status_privacy">Status Privacy</string>
+    <string name="clear_call_log">Clear call log</string>
+</resources>
