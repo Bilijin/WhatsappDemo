@@ -1,19 +1,16 @@
-package com.mobolajia.whatsappdemo
+package com.mobolajia.whatsappdemo.view.fragment
 
-import android.app.ActionBar
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
-import android.widget.LinearLayout
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentContainer
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import com.mobolajia.whatsappdemo.R
+import com.mobolajia.whatsappdemo.adapter.ViewPagerAdapter
 import com.mobolajia.whatsappdemo.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {

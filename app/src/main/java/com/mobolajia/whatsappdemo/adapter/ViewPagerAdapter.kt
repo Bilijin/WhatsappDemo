@@ -1,7 +1,11 @@
-package com.mobolajia.whatsappdemo
+package com.mobolajia.whatsappdemo.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.mobolajia.whatsappdemo.view.fragment.CallFragment
+import com.mobolajia.whatsappdemo.view.fragment.CameraFragment
+import com.mobolajia.whatsappdemo.view.fragment.ChatFragment
+import com.mobolajia.whatsappdemo.view.fragment.StatusFragment
 
 class ViewPagerAdapter(fragment : Fragment) : FragmentStateAdapter(fragment) {
 

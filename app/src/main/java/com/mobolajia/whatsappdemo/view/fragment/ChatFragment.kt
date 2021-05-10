@@ -1,10 +1,13 @@
-package com.mobolajia.whatsappdemo
+package com.mobolajia.whatsappdemo.view.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.mobolajia.whatsappdemo.model.Chat
+import com.mobolajia.whatsappdemo.adapter.ChatAdapter
+import com.mobolajia.whatsappdemo.R
 import com.mobolajia.whatsappdemo.databinding.FragmentChatBinding
 import kotlin.collections.ArrayList
 

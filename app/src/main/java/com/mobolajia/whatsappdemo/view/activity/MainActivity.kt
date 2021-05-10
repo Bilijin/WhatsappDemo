@@ -1,12 +1,11 @@
-package com.mobolajia.whatsappdemo
+package com.mobolajia.whatsappdemo.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuInflater
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayoutMediator
+import com.mobolajia.whatsappdemo.R
 import com.mobolajia.whatsappdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

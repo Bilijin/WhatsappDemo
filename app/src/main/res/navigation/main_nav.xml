@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/callFragment"
-        android:name="com.mobolajia.whatsappdemo.CallFragment"
+        android:name="com.mobolajia.whatsappdemo.view.fragment.CallFragment"
         android:label="fragment_call"
         tools:layout="@layout/fragment_call" />
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.mobolajia.whatsappdemo.ChatFragment"
+        android:name="com.mobolajia.whatsappdemo.view.fragment.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/statusFragment"
-        android:name="com.mobolajia.whatsappdemo.StatusFragment"
+        android:name="com.mobolajia.whatsappdemo.view.fragment.StatusFragment"
         android:label="fragment_status"
         tools:layout="@layout/fragment_status" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.mobolajia.whatsappdemo.MainFragment"
+        android:name="com.mobolajia.whatsappdemo.view.fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
 </navigation>
